@@ -1,12 +1,9 @@
-const fake_users = require("./fake_users");
+const fake_users = require("./fake_users.json");
 let token = "nnbyhug45ugthbghdjfjverbrhjhrbfhdjbfghjdfgjhdg";
-let me = fake_users[0];
-
+console.log(fake_users[0]);
 const resolvers = {
   Query: {
-    me: () => {
-      return me;
-    },
+    me: fake_users[0],
   },
   Mutation: {
     login: (email, password) => {
@@ -27,7 +24,4 @@ const resolvers = {
       return me;
     },
   },
-  User: {},
-  Book: {},
-  Auth: {},
 };
