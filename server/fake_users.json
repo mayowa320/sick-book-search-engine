@@ -1,0 +1,42 @@
+[
+  {
+    "_id": 1,
+    "email": "John@gmail.com",
+    "username": "john",
+    "password": "john",
+    "bookCount": 20,
+    "savedBooks": []
+  },
+  {
+    "_id": 2,
+    "email": "Pedro@gmail.com",
+    "username": "PedroTech",
+    "password": "PedroTech",
+    "bookCount": 20,
+    "savedBooks": []
+  },
+  {
+    "_id": 3,
+    "email": "Sarah@gmail.com",
+    "username": "cameron",
+    "password": "cameron",
+    "bookCount": 25,
+    "savedBooks": []
+  },
+  {
+    "_id": 4,
+    "email": "Rafe@gmail.com",
+    "username": "rafe123",
+    "password": "rafe123",
+    "bookCount": 60,
+    "savedBooks": []
+  },
+  {
+    "_id": 5,
+    "email": "Kelly@gmail.com",
+    "username": "kelly2019",
+    "password": "kelly2019",
+    "bookCount": 5,
+    "savedBooks": []
+  }
+]
