@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://sick-book-search-engine.herokuapp.com:80",
+  "proxy": "https://sick-book-search-engine.herokuapp.com",
   "dependencies": {
     "@apollo/client": "^3.7.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "graphql": "^16.6.0",
+    "http-proxy-middleware": "^2.0.6",
     "jwt-decode": "^2.2.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
